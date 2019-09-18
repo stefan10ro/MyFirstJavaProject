@@ -35,9 +35,10 @@ public class Main {
         int b1 = -3;
         int c1 = 5;
         int d1 = 8;
-        int total2 = a1+b1*c1/d1;
+        float total3 = a1+(float)b1*c1/d1;
+        //int total2 = a1+b1*c1/d1;
 
-        System.out.println("20+ -3*5/8="+total2);
+        System.out.println("20+ -3*5/8="+total3);
 
         int a2 = 5;
         int b2 = 15;
@@ -45,8 +46,8 @@ public class Main {
         int d2 = 2;
         int e2 = 8;
         int f2 = 3;
-        int total3 = a2+b2/c2*d2-e2%f2;
+        int total4 = a2+b2/c2*d2-e2%f2;
 
-        System.out.println("5+15/3*2-8%3="+total3);
+        System.out.println("5+15/3*2-8%3="+total4);
     }
 }
